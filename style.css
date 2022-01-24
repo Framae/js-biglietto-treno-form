@@ -26,8 +26,14 @@ body {
     border-radius: 30px;
 }
 
+.mini-title {
+    text-align: center;
+    color: #b91450;
+    margin-bottom: 20px;
+}
+
 .purple {
     border-color: #b91450;
-    color: #b91450;
-    border-radius: 10px;
+    border-radius: 5px;
 }
+
