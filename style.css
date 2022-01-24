@@ -80,12 +80,14 @@ button {
     width: 25%;
 }
 
-h4 {
+#nome-pass {
     margin-top: 30px;
     margin-left: 30px;
 }
 
 .divWhite {
+    display: flex;
+    justify-content: space-around;
     border-top: 2px solid gray;
     border-bottom: 2px solid gray;
     width: 65%;
