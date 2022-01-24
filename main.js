@@ -22,3 +22,6 @@
 
 // document.getElementById("result").innerHTML=result.toFixed(2);
 
+let name = document.getElementById('name');
+let number = document.getElementById('number');
+let age = document.getElementById('age');

@@ -16,14 +16,26 @@ body {
 
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     background-color: white;
     width: 80%;
     margin: 0 auto;
-    height: 300px;
+    padding: 50px 0;
     border-radius: 30px;
+}
+
+.container-top {
+    display: flex;
+    justify-content: center;
+}
+
+.container-bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.margine {
+    margin: 0 30px;
 }
 
 .mini-title {
