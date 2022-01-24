@@ -49,3 +49,9 @@ body {
     border-radius: 5px;
 }
 
+button {
+    font-size: 25px;
+    border-color:  #b91450;
+    border-radius: 5px;
+    margin: 0 10px;
+}
