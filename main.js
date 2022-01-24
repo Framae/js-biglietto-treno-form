@@ -19,9 +19,19 @@ let age = document.getElementById('age');
 let bottone = document.getElementById('genera')
 bottone.addEventListener('click',
     function() {
-        
+       
     }
 )
+
+let secondoBottone = document.getElementById('annulla')
+secondoBottone.addEventListener('click',
+    function() {
+       name.value=""
+       number.value=""
+       age.value=""
+    }
+)
+
 //  if (age < 18){
 //  result = 0.21 * 0.8 * distance;
 // } 
