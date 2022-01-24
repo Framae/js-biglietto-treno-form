@@ -16,6 +16,12 @@ let name = document.getElementById('name');
 let number = document.getElementById('number');
 let age = document.getElementById('age');
 
+let bottone = document.getElementById('genera')
+bottone.addEventListener('click',
+    function() {
+        
+    }
+)
 //  if (age < 18){
 //  result = 0.21 * 0.8 * distance;
 // } 
