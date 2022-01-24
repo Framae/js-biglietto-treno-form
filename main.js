@@ -16,19 +16,23 @@ let name = document.getElementById('name');
 let number = document.getElementById('number');
 let age = document.getElementById('age');
 
-let bottone = document.getElementById('genera')
+
+
+let bottone = document.getElementById('genera');
+document.getElementById("welcome").hidden = true;
 bottone.addEventListener('click',
     function() {
-       
+        document.querySelector('.awesome').hidden = false;
     }
 )
 
-let secondoBottone = document.getElementById('annulla')
+let secondoBottone = document.getElementById('annulla');
 secondoBottone.addEventListener('click',
     function() {
        name.value=""
        number.value=""
        age.value=""
+       document.getElementById("welcome").hidden = true;
     }
 )
 
