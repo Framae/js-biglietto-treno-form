@@ -25,3 +25,9 @@ body {
     height: 300px;
     border-radius: 30px;
 }
+
+.purple {
+    border-color: #b91450;
+    color: #b91450;
+    border-radius: 10px;
+}
